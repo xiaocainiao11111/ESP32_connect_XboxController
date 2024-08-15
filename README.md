@@ -11,7 +11,7 @@
 >
 >
 > **仓库文件：**
-> * 三个arduino-Xbox开头的都是要用到的库
+>
 > * ESP32_connect_Xbox是已验证的示例源码
 > * images是贴图，不用管
 >
