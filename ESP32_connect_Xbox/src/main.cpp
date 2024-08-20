@@ -59,6 +59,7 @@ shake：下左电机和下右电机一起动，频率低力量大
 // repo.v.timeSilent = 0;   // 静止 x/100 秒
 // repo.v.countRepeat = 0;  // 循环次数 x+1
 
+// 官方例程
 void demoVibration()
 {
   XboxSeriesXHIDReportBuilder_asukiaaa::ReportBase repo;
@@ -108,6 +109,7 @@ void demoVibration()
   delay(2000);
 }
 
+// 扳机力反馈，根据扳机按压力度调整振动力度
 void demoVibration_2()
 {
   XboxSeriesXHIDReportBuilder_asukiaaa::ReportBase repo;
