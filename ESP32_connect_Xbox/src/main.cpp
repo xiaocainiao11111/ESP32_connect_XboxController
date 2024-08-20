@@ -109,7 +109,7 @@ void demoVibration()
   delay(2000);
 }
 
-// 扳机力反馈，根据扳机按压力度调整振动力度
+// 振动反馈，根据扳机按压力度调整振动力度
 void demoVibration_2()
 {
   XboxSeriesXHIDReportBuilder_asukiaaa::ReportBase repo;
