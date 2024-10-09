@@ -146,9 +146,9 @@ void loop()
     }
     else
     {
-      // Serial.print(xbox_string());
+      Serial.print(xbox_string());
       // demoVibration();
-      demoVibration_2();
+      // demoVibration_2();
     }
   }
   else
